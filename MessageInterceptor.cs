@@ -8,12 +8,13 @@ namespace WCF
         public void AfterReceiveReply(ref System.ServiceModel.Channels.Message
          reply, object correlationState)
         {
+					// Do what you want with reply
         }
 
         public object BeforeSendRequest(ref System.ServiceModel.Channels.Message
          request, System.ServiceModel.IClientChannel channel)
         {
-            //Handle Request Validation here
+						// Do what you want with request
             return null;
         }
     }
